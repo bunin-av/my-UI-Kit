@@ -1,0 +1,29 @@
+.input__wrapper {
+  display: flex;
+}
+
+.input__container {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  outline: 1px solid #000;
+  width: inherit;
+  padding: 5px 10px 7px;
+}
+
+.input__input {
+  border: none;
+  outline: none;
+  width: inherit;
+}
+
+.input__label {
+  margin-right: 20px;
+}
+
+._invalid {
+  outline: 2px solid crimson;
+}
+._valid {
+  outline: 2px solid forestgreen;
+}

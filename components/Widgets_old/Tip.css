@@ -1,0 +1,22 @@
+.span__wrapper {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px 7px;
+  width: inherit;
+  content: attr(data-tooltip);
+  min-width: 140px;
+  background: #3C4896;
+  border-radius: 5px;
+  position: relative;
+  opacity: 0.3;
+}
+
+.span__span {
+  border: none;
+  outline: none;
+  width: inherit;
+  color: #fff;
+  text-align: center;
+}
